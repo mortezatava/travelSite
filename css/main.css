@@ -1,0 +1,67 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  background-color: #ffffff;
+}
+.nav-container__home {
+  text-decoration: underline;
+  border-bottom: 2px solid transparent;
+  border-bottom-color: #db7a4e;
+}
+
+.hero-container {
+  display: flex;
+    justify-content: space-between;
+  align-items: center;
+  background-color: #fefaf5;
+}
+.hero-card {
+  max-width: 43%;
+  margin-left: 124px;
+}
+.hero-card h1,
+.hero-card p {
+  color: #335576;
+}
+
+.hero-image {
+  width: 60%;
+  margin-left: 235px;
+}
+.getStarted {
+  background-color: #db7a4e;
+  color: white;
+  padding: 8px 20px;
+  border: 1px solid transparent;
+  border-color: white;
+  border-radius: 48px;
+}
+.recommendations__heading {
+  margin: 20px 0px 10px 120px;
+  color: #335576;
+}
+.recommendations-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 0;
+  align-items: center;
+  margin-left: 244px;
+}
+
+.recommendations {
+  width: 250px;
+  height: 350px;
+  border: 1px solid black rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  box-shadow: o 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.recommendations-container h3 {
+  display: inline-block;
+  color: white;
+  position: relative;
+  left: -85px;
+  bottom: -151px;
+}
